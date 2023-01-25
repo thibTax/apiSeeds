@@ -2,6 +2,8 @@ const express = require('express')
 const sequelize = require('./src/dbTest/sequelize')
 const bodyParser = require ('body-parser')
 
+/* a mettre dans package.json NODE_ENV=production / NODE_ENV=development*/
+
 const app = express()
 const port = process.env.PORT || 3001
 
